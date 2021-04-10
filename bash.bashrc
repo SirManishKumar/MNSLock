@@ -53,7 +53,7 @@ echo -e $'\e[1;31m   Created By:- https://github.com/SirManishKumar/TermuxLock  
 echo -e $'\e[1;31m     Follow On Twitter:- http://twtter.com/SirManishKumar  \e[0m'
 echo -e $'\e[1;32m╰━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╯ \e[0m'
 echo -e "\e[32m"
-echo "Welcome $USER"
+echo                 "Welcome $USER"
 echo -e "\e[0m"
 else
 echo -e "\e[91m"
