@@ -4,7 +4,25 @@ if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ]; then
 }
 fi
 
+PS1='\[\033[1;32m\]┏━━┫\[\033[1;33m\]\@\[\033[1;32m\]║\[\033[1;33m\]\d\[\033[1;32m\]║
+\[\033[1;32m\]┗┳━━\[\033[1;33m\]Manish\[\033[1;32m\]@\[\033[1;33m\]${PWD/*\//}.com
+ \[\033[1;32m\]┗━━━━⫸⫸\[\033[0m\] '
 
+clear
+FILENAME="/data/data/com.termux/files/usr/etc/user.txt"
+while IFS=: read -r username pass
+do
+IPS="$pass"
+USER="$username"
+done < $FILENAME
+echo -e "\e[32m"                     
+cat /data/data/com.termux/files/home/txt.txt
+echo -e "\e[91m\n\nEnter Password to unlock"
+echo -e  "Password:\e[34m"
+read password
+if [ "$password" =  "$IPS" ]
+then                                      
+clear
 TODAY=$(date +'Today: %a- %d/%B/%Y')
 TIMENOW=$(date +'%r')
 
@@ -34,28 +52,7 @@ echo -e $'\e[1;32m╭━━━━━ ━━━━━━ ━━━━━━ ━�
    Created By:- https://github.com/SirManishKumar/TermuxLock
      Follow On Twitter:- http://twtter.com/SirManishKumar
 echo -e $'\e[1;32m╰━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╯ \e[0m'
-
-PS1='\[\033[1;32m\]┏━━┫\[\033[1;33m\]\@\[\033[1;32m\]║\[\033[1;33m\]\d\[\033[1;32m\]║
-\[\033[1;32m\]┗┳━━\[\033[1;33m\]Manish\[\033[1;32m\]@\[\033[1;33m\]${PWD/*\//}.com
- \[\033[1;32m\]┗━━━━⫸⫸\[\033[0m\] '
-
-clear
-FILENAME="/data/data/com.termux/files/usr/etc/user.txt"
-while IFS=: read -r username pass
-do
-IPS="$pass"
-USER="$username"
-done < $FILENAME
-echo -e "\e[32m"                     
-cat /data/data/com.termux/files/home/txt.txt
-echo -e "\e[91m\n\nEnter Password to unlock"
-echo -e  "Password:\e[34m"
-read password
-if [ "$password" =  "$IPS" ]
-then                                      
-clear
 echo -e "\e[32m"
-figlet Unlocked
 echo "Welcome $USER"
 echo -e "\e[0m"
 else
