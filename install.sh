@@ -5,8 +5,6 @@ pkg upgrade -y
 pkg install figlet
 clear
 echo -e "\e[32m"
-cp txt.txt $HOME
-cat $HOME/txt.txt
 echo ""
 echo "This is a tool to add lock to termux"
 echo -e "\e[11m"
