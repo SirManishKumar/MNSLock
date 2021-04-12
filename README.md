@@ -1,4 +1,4 @@
-# ManishLock
+# MNSLock
 This Tool Create For Protect You Termux And Linux Welcome Screen
 
 You can install this tool to follow these steps-
@@ -9,9 +9,9 @@ pkg upgrade
 
 pkg install git
 
-git clone https://github.com/SirManishKumar/ManishLock
+git clone https://github.com/SirManishKumar/MNSLock
 
-cd ManishLock
+cd MNSLock
 
 chmod +x install.sh
 
