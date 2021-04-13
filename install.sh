@@ -9,12 +9,15 @@ echo ""
 echo "This is a tool to add lock to termux"
 echo -e "\e[11m"
 clear
-echo "Enter Your name"
+echo ""
+echo "Enter Your Name"
 read username
 clear
+echo ""
 echo "Enter Password"
 read password
 echo "$username:$password">>/data/data/com.termux/files/usr/etc/user.txt
+rm $HOME/../usr/etc/motd
 rm $HOME/../usr/etc/bash.bashrc
 cp bash.bashrc $HOME/../usr/etc/
 clear
