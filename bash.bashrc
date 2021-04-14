@@ -4,7 +4,7 @@ if [ -x /data/data/com.termux/files/usr/libexec/termux/command-not-found ]; then
 }
 fi
 
-PS1='\[\033[1;32m\]┏━━┫\[\033[1;33m\]\@\[\033[1;32m\]║\[\033[1;33m\]\d\[\033[1;32m\]║
+PS1='\[\033[1;32m\]┏━━┫\[\033[1;33m\]$TODAY\[\033[1;32m\]║\[\033[1;33m\]\@\[\033[1;32m\]║
 \[\033[1;32m\]┗┳━━\[\033[1;33m\]Manish\[\033[1;32m\]@\[\033[1;33m\]${PWD/*\//}.com
  \[\033[1;32m\]┗━━━━⫸⫸\[\033[0m\] '
 
@@ -15,13 +15,13 @@ do
 IPS="$pass"
 USER="$username"
 done < $FILENAME
-TODAY=$(date +'Today: %a- %d/%B/%Y')
+TODAY=$(date +'Today: %a %d/%B/%Y')
 TIMENOW=$(date +'%r')
 
 echo -e $'\e[1;32m                                📡\e[0m'
-echo -e $'\e[1;32m╭━━━━━━━━━━━━╮╭━━━━━━━━━━━━━━━━━╩━━━━━━━━━━━━━━━━━━━╮ \e[0m'
+echo -e $'\e[1;32m╭━━━━━━━━━━━━╮╭━━━━━━━━━━━━━━━━━╩━━━━━━━━━━━━━━━━━━╮ \e[0m'
 echo -e $'\e[1;32m|━━━⊕━━━━━━━━|\e[0m' $TODAY $TIMENOW
-echo -e $'\e[1;32m|\e[1;36mLogin UserId\e[1;32m|╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯\e[0m'
+echo -e $'\e[1;32m|\e[1;36mLogin UserId\e[1;32m|╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯\e[0m'
 echo -e $'\e[1;32m|\e[1;33mSir        \e[1;32m |\e[1;37m * Search packages:   pkg/apt search \e[0m'
 echo -e $'\e[1;32m|\e[1;33mManishKumar\e[1;32m |\e[1;37m * Install a package: pkg/apt install \e[0m'
 echo -e $'\e[1;32m|Located:\e[1;31m Ind\e[1;32m|\e[1;37m * Update packages:   pkg/apt updat \e[0m'
@@ -50,13 +50,13 @@ read password
 if [ "$password" =  "$IPS" ]
 then                                      
 clear
-TODAY=$(date +'Today: %a- %d/%B/%Y')
+TODAY=$(date +'Today: %a %d/%B/%Y')
 TIMENOW=$(date +'%r')
 
 echo -e $'\e[1;32m                                📡\e[0m'
-echo -e $'\e[1;32m╭━━━━━━━━━━━━╮╭━━━━━━━━━━━━━━━━━╩━━━━━━━━━━━━━━━━━━━╮ \e[0m'
+echo -e $'\e[1;32m╭━━━━━━━━━━━━╮╭━━━━━━━━━━━━━━━━━╩━━━━━━━━━━━━━━━━━━╮ \e[0m'
 echo -e $'\e[1;32m|━━━⊕━━━━━━━━|\e[0m' $TODAY $TIMENOW
-echo -e $'\e[1;32m|\e[1;36mLogin UserId\e[1;32m|╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯\e[0m'
+echo -e $'\e[1;32m|\e[1;36mLogin UserId\e[1;32m|╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯\e[0m'
 echo -e $'\e[1;32m|\e[1;33mSir        \e[1;32m |\e[1;37m * Search packages:   pkg/apt search \e[0m'
 echo -e $'\e[1;32m|\e[1;33mManishKumar\e[1;32m |\e[1;37m * Install a package: pkg/apt install \e[0m'
 echo -e $'\e[1;32m|Located:\e[1;31m Ind\e[1;32m|\e[1;37m * Update packages:   pkg/apt updat \e[0m'
