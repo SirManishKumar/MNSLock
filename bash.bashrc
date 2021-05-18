@@ -18,19 +18,19 @@ done < $FILENAME
 TODAY=$(date +'Today: %a %d/%B/%Y')
 TIMENOW=$(date +'%r')
 
-echo -e $'\e[1;32m                                📡       \e[0m'
-echo -e $'\e[1;32m╭━━━━━━━━━━━━╮╭━━━━━━━━━━━━━━━━━╩━━━━━━━━━━━━━━━━━━╮ \e[0m'
-echo -e $'\e[1;32m|━━━⊕━━━━━━━━|\e[0m' $TODAY $TIMENOW
-echo -e $'\e[1;32m|\e[1;36mLogin UserId\e[1;32m|╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯\e[0m'
-echo -e $'\e[1;32m|\e[1;33mSir        \e[1;32m |\e[1;37m * Search packages:   pkg search  \e[1;33mI 🧡 \e[1;33mHINDUSTAN\e[0m'
-echo -e $'\e[1;32m|\e[1;33mManishKumar\e[1;32m |\e[1;37m * Install a package: pkg install \e[0;101m               \e[0m'
-echo -e $'\e[1;32m|Located:\e[1;31m Ind\e[1;32m|\e[1;37m * Upgrade packages:  pkg upgrade \e[0;107m       \e[1;30m✺       \e[0m'
-echo -e $'\e[1;32m|\e[1;34mM09554988808\e[1;32m|\e[1;37m * Update packages:   pkg update  \e[0;102m               \e[0m'
-echo -e $'\e[1;32m|\e[1;31mLogin Server\e[1;32m|\e[1;37m * Root:              pkg install root-repo \e[0m'
-echo -e $'\e[1;32m|\e[1;33m Malaysia   \e[1;32m|\e[1;37m * Unstable:          pkg install unstable-repo \e[0m'
-echo -e $'\e[1;32m| \e[1;31m 120.0.0.1 \e[1;32m|\e[1;37m * X11:               pkg install x11-repo \e[0m'
-echo -e $'\e[1;32m|━━━━━━○━━━━━|\e[1;37m * fix-broken:        apt –fix-broken install \e[0m'
-echo -e $'\e[1;32m╰━━━━━━━━━━━━╯\e[1;36m                __ \e[0m'
+echo -e $'\e[1;32m                                📡     🤵 \e[0m'Enter Your Password
+echo -e $'\e[1;32m╭━━━━━━━━━━━━━╮╭━━━━━━━━━━━━━━━━╩━━━━━━━━━━━━━━━━━━╮ \e[0m'
+echo -e $'\e[1;32m|━━━⊕━━━━━━━━━|\e[0m' $TODAY $TIMENOW
+echo -e $'\e[1;32m|\e[1;36m Creayed By: \e[1;32m|╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯\e[0m'
+echo -e $'\e[1;32m|\e[1;33m     Sir    \e[1;32m |\e[1;37m * Search packages:  pkg search  \e[1;33mI 🧡 \e[1;33mHINDUSTAN\e[0m'
+echo -e $'\e[1;32m|\e[1;33m ManishKumar\e[1;32m |\e[1;37m * Install package:  pkg install \e[0;101m               \e[0m'
+echo -e $'\e[1;32m|\e[1;36mMy Location: \e[1;32m|\e[1;37m * Upgrade packages: pkg upgrade \e[0;107m       \e[1;30m✺       \e[0m'
+echo -e $'\e[1;32m|\e[1;31m  Hindustan  \e[1;32m|\e[1;37m * Update packages:  pkg update  \e[0;102m               \e[0m'
+echo -e $'\e[1;32m|\e[1;31m  120.0.0.1  \e[1;32m|\e[1;37m * Root:             pkg install root-repo \e[0m'
+echo -e $'\e[1;32m|\e[1;36mLogin Server:\e[1;32m|\e[1;37m * Unstable:         pkg install unstable-repo \e[0m'
+echo -e $'\e[1;32m|\e[1;31m   Malaysia  \e[1;32m|\e[1;37m * X11:              pkg install x11-repo \e[0m'
+echo -e $'\e[1;32m|━━━━━━○━━━━━━|\e[1;37m * fix-broken:       apt –fix-broken install \e[0m'
+echo -e $'\e[1;32m╰━━━━━━━━━━━━━╯\e[1;31m               __ \e[0m'
 echo -e $'\e[1;36m          ____  _            |  |        __  __ _   _  ____ \e[0m'
 echo -e $'\e[1;36m         / ___|(_)_ __    ___|  |___    |  \/  | \ | |/ ___| \e[0m'
 echo -e $'\e[1;31m         \___ \| | `__|   \__    __/    | |\/| |  \| |\___ \ \e[0m'
@@ -53,19 +53,19 @@ clear
 TODAY=$(date +'Today: %a %d/%B/%Y')
 TIMENOW=$(date +'%r')
 
-echo -e $'\e[1;32m                                📡       \e[0m'"Welcome $USER"
-echo -e $'\e[1;32m╭━━━━━━━━━━━━╮╭━━━━━━━━━━━━━━━━━╩━━━━━━━━━━━━━━━━━━╮ \e[0m'
-echo -e $'\e[1;32m|━━━⊕━━━━━━━━|\e[0m' $TODAY $TIMENOW
-echo -e $'\e[1;32m|\e[1;36mLogin UserId\e[1;32m|╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯\e[0m'
-echo -e $'\e[1;32m|\e[1;33mSir        \e[1;32m |\e[1;37m * Search packages:   pkg search  \e[1;33mI 🧡 \e[1;33mHINDUSTAN\e[0m'
-echo -e $'\e[1;32m|\e[1;33mManishKumar\e[1;32m |\e[1;37m * Install a package: pkg install \e[0;101m               \e[0m'
-echo -e $'\e[1;32m|Located:\e[1;31m Ind\e[1;32m|\e[1;37m * Upgrade packages:  pkg upgrade \e[0;107m       \e[1;30m✺       \e[0m'
-echo -e $'\e[1;32m|\e[1;34mM09554988808\e[1;32m|\e[1;37m * Update packages:   pkg update  \e[0;102m               \e[0m'
-echo -e $'\e[1;32m|\e[1;31mLogin Server\e[1;32m|\e[1;37m * Root:              pkg install root-repo \e[0m'
-echo -e $'\e[1;32m|\e[1;33m Malaysia   \e[1;32m|\e[1;37m * Unstable:          pkg install unstable-repo \e[0m'
-echo -e $'\e[1;32m| \e[1;31m 120.0.0.1 \e[1;32m|\e[1;37m * X11:               pkg install x11-repo \e[0m'
-echo -e $'\e[1;32m|━━━━━━○━━━━━|\e[1;37m * fix-broken:        apt –fix-broken install \e[0m'
-echo -e $'\e[1;32m╰━━━━━━━━━━━━╯\e[1;36m                __ \e[0m'
+echo -e $'\e[1;32m                                📡     🤵 \e[0m'"Welcome $USER"
+echo -e $'\e[1;32m╭━━━━━━━━━━━━━╮╭━━━━━━━━━━━━━━━━╩━━━━━━━━━━━━━━━━━━╮ \e[0m'
+echo -e $'\e[1;32m|━━━⊕━━━━━━━━━|\e[0m' $TODAY $TIMENOW
+echo -e $'\e[1;32m|\e[1;36m Creayed By: \e[1;32m|╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯\e[0m'
+echo -e $'\e[1;32m|\e[1;33m     Sir    \e[1;32m |\e[1;37m * Search packages:  pkg search  \e[1;33mI 🧡 \e[1;33mHINDUSTAN\e[0m'
+echo -e $'\e[1;32m|\e[1;33m ManishKumar\e[1;32m |\e[1;37m * Install package:  pkg install \e[0;101m               \e[0m'
+echo -e $'\e[1;32m|\e[1;36mMy Location: \e[1;32m|\e[1;37m * Upgrade packages: pkg upgrade \e[0;107m       \e[1;30m✺       \e[0m'
+echo -e $'\e[1;32m|\e[1;31m  Hindustan  \e[1;32m|\e[1;37m * Update packages:  pkg update  \e[0;102m               \e[0m'
+echo -e $'\e[1;32m|\e[1;31m  120.0.0.1  \e[1;32m|\e[1;37m * Root:             pkg install root-repo \e[0m'
+echo -e $'\e[1;32m|\e[1;36mLogin Server:\e[1;32m|\e[1;37m * Unstable:         pkg install unstable-repo \e[0m'
+echo -e $'\e[1;32m|\e[1;31m   Malaysia  \e[1;32m|\e[1;37m * X11:              pkg install x11-repo \e[0m'
+echo -e $'\e[1;32m|━━━━━━○━━━━━━|\e[1;37m * fix-broken:       apt –fix-broken install \e[0m'
+echo -e $'\e[1;32m╰━━━━━━━━━━━━━╯\e[1;31m               __ \e[0m'
 echo -e $'\e[1;36m          ____  _            |  |        __  __ _   _  ____ \e[0m'
 echo -e $'\e[1;36m         / ___|(_)_ __    ___|  |___    |  \/  | \ | |/ ___| \e[0m'
 echo -e $'\e[1;31m         \___ \| | `__|   \__    __/    | |\/| |  \| |\___ \ \e[0m'
