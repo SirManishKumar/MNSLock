@@ -85,7 +85,16 @@ clear
 figlet Locked
 echo "Incorrect Password"
 
-echo "Wait 3 sec..."
-sleep 3
+echo "Wait 3.5 sec..."
+sleep 3.5
+clear
+figlet 3
+sleep 1.5
+clear
+figlet 2
+sleep 1.5
+clear
+figlet 1
+sleep 1.5
 exec bash --login
 fi
