@@ -84,16 +84,18 @@ echo -e "\e[91m"
 clear
 figlet Locked
 echo "Incorrect Password"
-
-echo "Wait 3.5 sec..."
+echo "Wait 3 sec..."
 sleep 3.5
 clear
+echo "Wait 3 sec..."
 figlet 3
 sleep 1.5
 clear
+echo "Wait 2 sec..."
 figlet 2
 sleep 1.5
 clear
+echo "Wait 1 sec..."
 figlet 1
 sleep 1.5
 exec bash --login
