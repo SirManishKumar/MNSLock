@@ -3,6 +3,7 @@ clear
 pkg update -y
 pkg upgrade -y
 pkg install figlet
+clear
 echo -e "\e[1;31m   Contacting To Manish Kumar Chaturvedi Server Please Wait."
 echo -e "\e[1;37m                 Connecting- SIRMANISHKUMAR"
 sleep .8
