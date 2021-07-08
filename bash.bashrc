@@ -21,7 +21,7 @@ TIMENOW=$(date +'%r')
 echo -e $'\e[1;32m                                📡     🤵 \e[0m'Enter Your Password
 echo -e $'\e[1;32m╭━━━━━━━━━━━━━╮╭━━━━━━━━━━━━━━━━╩━━━━━━━━━━━━━━━━━━╮ \e[0m'
 echo -e $'\e[1;32m|━━━⊕━━━━━━━━━|\e[0m' $TODAY $TIMENOW
-echo -e $'\e[1;32m|\e[1;36m Creayed By: \e[1;32m|╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯\e[0m'
+echo -e $'\e[1;32m|\e[1;36m Created By: \e[1;32m|╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯\e[0m'
 echo -e $'\e[1;32m|\e[1;33m     Sir     \e[1;32m|\e[1;37m * Search packages: pkg search  \e[1;33mI 🧡 \e[1;33mHINDUSTAN 🚩\e[0m'
 echo -e $'\e[1;32m|\e[1;33m ManishKumar \e[1;32m|\e[1;37m * Install package: pkg install \e[0;101m                \e[1;31m▐\e[0m'
 echo -e $'\e[1;32m|\e[1;36mUse Location:\e[1;32m|\e[1;37m * Upgrade package: pkg upgrade \e[0;107m        \e[1;30m✺       \e[1;37m▐\e[0m'
@@ -56,7 +56,7 @@ TIMENOW=$(date +'%r')
 echo -e $'\e[1;32m                                📡     🤵 \e[0m'"Welcome $USER"
 echo -e $'\e[1;32m╭━━━━━━━━━━━━━╮╭━━━━━━━━━━━━━━━━╩━━━━━━━━━━━━━━━━━━╮ \e[0m'
 echo -e $'\e[1;32m|━━━⊕━━━━━━━━━|\e[0m' $TODAY $TIMENOW
-echo -e $'\e[1;32m|\e[1;36m Creayed By: \e[1;32m|╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯\e[0m'
+echo -e $'\e[1;32m|\e[1;36m Created By: \e[1;32m|╰━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╯\e[0m'
 echo -e $'\e[1;32m|\e[1;33m     Sir     \e[1;32m|\e[1;37m * Search packages: pkg search  \e[1;33mI 🧡 \e[1;33mHINDUSTAN 🚩\e[0m'
 echo -e $'\e[1;32m|\e[1;33m ManishKumar \e[1;32m|\e[1;37m * Install package: pkg install \e[0;101m                \e[1;31m▐\e[0m'
 echo -e $'\e[1;32m|\e[1;36mUse Location:\e[1;32m|\e[1;37m * Upgrade package: pkg upgrade \e[0;107m        \e[1;30m✺       \e[1;37m▐\e[0m'
