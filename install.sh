@@ -859,7 +859,7 @@ echo -e $'\e[1;31m    Created By:- https://github.com/SirManishKumar/MNSLock  \e
 echo -e $'\e[1;31m     Follow On Twitter:- http://twtter.com/SirManishKumar  \e[0m'
 echo -e $'\e[1;32m╰━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╯ \e[0m'
 echo -e $'\e[1;91m\e[0m\e[1;91m\e[0m\e[1;96m\e[0m\e[1;91m           ----------------------------------------- \e[1;91m\e[0m'
-echo "Enter Your Name"
+echo "Enter Your First Name"
 read username
 clear
 echo ""
@@ -879,7 +879,7 @@ echo -e $'\e[1;31m    Created By:- https://github.com/SirManishKumar/MNSLock  \e
 echo -e $'\e[1;31m     Follow On Twitter:- http://twtter.com/SirManishKumar  \e[0m'
 echo -e $'\e[1;32m╰━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━━ ━━━━━╯ \e[0m'
 echo -e $'\e[1;91m\e[0m\e[1;91m\e[0m\e[1;96m\e[0m\e[1;91m           ----------------------------------------- \e[1;91m\e[0m'
-echo "Enter Password"
+echo "Enter Your Password"
 read password
 echo "$username:$password">>/data/data/com.termux/files/usr/etc/user.txt
 rm $HOME/../usr/etc/motd
