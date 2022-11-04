@@ -1,5 +1,5 @@
 # MNSLock
-This Tool Create For Protect You Termux And Linux Welcome Screen
+This Tool Create For Protect Your Termux And Linux Welcome Screen
 
 You can install this tool to follow these steps-
 
